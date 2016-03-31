@@ -1,6 +1,6 @@
 {
     "name":"Cdiff",
     "description":"C. diff report for SBM",
-    "icon":"https://sbm-it.github.io/microbes/cdiff.png",
-    "onclick":"https://sbm-it.github.io/microbes/cdiff.js"
+    "icon":"https://sbu-bmi.github.io/microbes/cdiff.png",
+    "onclick":"https://sbu-bmi.github.io/microbes/cdiff.js"
 }
