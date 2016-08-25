@@ -14,7 +14,7 @@ console.log('loaded cdiff.js');
         setTimeout(function(){
             console.log('checking at '+Date())
             $.getScript(urlJS)
-        },2000)
+        },5000)
     }
     //check connection
     var im = document.createElement('img')
