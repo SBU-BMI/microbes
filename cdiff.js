@@ -2,7 +2,7 @@ console.log('loaded cdiff.js');
 
 (function(){
     //var h = '<div id="helpLoad">If the Tableau dashboard fails to load below then a) <a href="https://sbmcin.analytics.healtheintent.com/discovery" target="_blank">Make sure you\'re logged in</a>, and then b) <button id="reload" class="btn-primary">reload this app</button>.</div>'
-    var h = "<div style='color:maroon'><h3><i>Clostridium Difficile</i></h3></div><hr><div id='tableauDiv' class='tableauPlaceholder' style='width: 1204px; height: 962px;'><object class='tableauViz' width='1204' height='962' style='display:none;'><param name='host_url' value='https%3A%2F%2Fdiscovery.analytics.healtheintent.com%2F' /> <param name='site_root' value='&#47;t&#47;SBMCIN' /><param name='name' value='CDiffCOandHO&#47;CDiffCOHOSummary' /><param name='tabs' value='yes' /><param name='toolbar' value='no' /><param name='customViews' value='no' /><param name='filter' value=':refresh' /><param name='revert' value='all' /></object></div>"
+    var h = "</div><hr><div id='tableauDiv' class='tableauPlaceholder' style='width: 1204px; height: 962px;'><object class='tableauViz' width='1204' height='962' style='display:none;'><param name='host_url' value='https%3A%2F%2Fdiscovery.analytics.healtheintent.com%2F' /> <param name='site_root' value='&#47;t&#47;SBMCIN' /><param name='name' value='CDiffCOandHO&#47;CDiffCOHOSummary' /><param name='tabs' value='yes' /><param name='toolbar' value='no' /><param name='customViews' value='no' /><param name='filter' value=':refresh' /><param name='revert' value='all' /></object></div>"
     sbmApps.render(h)
     
     var urlJS= 'https://sbu-bmi.github.io/microbes/cdiff.js' 
